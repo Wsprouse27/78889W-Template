@@ -1,3 +1,4 @@
+#include "Config.h"
 #include "vex.h"
 using namespace vex;
 
@@ -23,104 +24,13 @@ float P19 = PORT19;
 float P20 = PORT20;
 float P21 = PORT21;
 
-float P1R = PORT1,ratio36_1;
-float P2R = PORT2,ratio36_1;
-float P3R = PORT3,ratio36_1;
-float P4R = PORT4,ratio36_1;
-float P5R = PORT5,ratio36_1;
-float P6R = PORT6,ratio36_1;
-float P7R = PORT7,ratio36_1;
-float P8R = PORT8,ratio36_1;
-float P9R = PORT9,ratio36_1;
-float P10R = PORT10,ratio36_1;
-float P11R = PORT11,ratio36_1;
-float P12R = PORT12,ratio36_1;
-float P13R = PORT13,ratio36_1;
-float P14R = PORT14,ratio36_1;
-float P15R = PORT15,ratio36_1;
-float P16R = PORT16,ratio36_1;
-float P17R = PORT17,ratio36_1;
-float P18R = PORT18,ratio36_1;
-float P19R = PORT19,ratio36_1;
-float P20R = PORT20,ratio36_1;
-float P21R = PORT21,ratio36_1;
-
-float P1R = PORT1,ratio36_1;
-float P2R = PORT2,ratio36_1;
-float P3R = PORT3,ratio36_1;
-float P4R = PORT4,ratio36_1;
-float P5R = PORT5,ratio36_1;
-float P6R = PORT6,ratio36_1;
-float P7R = PORT7,ratio36_1;
-float P8R = PORT8,ratio36_1;
-float P9R = PORT9,ratio36_1;
-float P10R = PORT10,ratio36_1;
-float P11R = PORT11,ratio36_1;
-float P12R = PORT12,ratio36_1;
-float P13R = PORT13,ratio36_1;
-float P14R = PORT14,ratio36_1;
-float P15R = PORT15,ratio36_1;
-float P16R = PORT16,ratio36_1;
-float P17R = PORT17,ratio36_1;
-float P18R = PORT18,ratio36_1;
-float P19R = PORT19,ratio36_1;
-float P20R = PORT20,ratio36_1;
-float P21R = PORT21,ratio36_1;
-
-float P1B = PORT1,ratio18_1;
-float P2B = PORT2,ratio18_1;
-float P3B = PORT3,ratio18_1;
-float P4B = PORT4,ratio18_1;
-float P5B = PORT5,ratio18_1;
-float P6B = PORT6,ratio18_1;
-float P7B = PORT7,ratio18_1;
-float P8B = PORT8,ratio18_1;
-float P9B = PORT9,ratio18_1;
-float P10B = PORT10,ratio18_1;
-float P11B = PORT11,ratio18_1;
-float P12B = PORT12,ratio18_1;
-float P13B = PORT13,ratio18_1;
-float P14B = PORT14,ratio18_1;
-float P15B = PORT15,ratio18_1;
-float P16B = PORT16,ratio18_1;
-float P17B = PORT17,ratio18_1;
-float P18B = PORT18,ratio18_1;
-float P19B = PORT19,ratio18_1;
-float P20B = PORT20,ratio18_1;
-float P21B = PORT21,ratio18_1;
-
-float P1B = PORT1,ratio6_1;
-float P2B = PORT2,ratio6_1;
-float P3B = PORT3,ratio6_1;
-float P4B = PORT4,ratio6_1;
-float P5B = PORT5,ratio6_1;
-float P6B = PORT6,ratio6_1;
-float P7B = PORT7,ratio6_1;
-float P8B = PORT8,ratio6_1;
-float P9B = PORT9,ratio6_1;
-float P10B = PORT10,ratio6_1;
-float P11B = PORT11,ratio6_1;
-float P12B = PORT12,ratio6_1;
-float P13B = PORT13,ratio6_1;
-float P14B = PORT14,ratio6_1;
-float P15B = PORT15,ratio6_1;
-float P16B = PORT16,ratio6_1;
-float P17B = PORT17,ratio6_1;
-float P18B = PORT18,ratio6_1;
-float P19B = PORT19,ratio6_1;
-float P20B = PORT20,ratio6_1;
-float P21B = PORT21,ratio6_1;
-
 float reversed = true;
 
 int MotorGear = 36;
 int WheelGear = 48;
-int WheelDiameter = 2.75;
-int TrackWidth = 12;
+double WheelDiameter = 2.75;
+double TrackWidth = 12;
 
-//Blue Cartridge = 6
-//Green Cartridge = 18
-//Red Cartridge = 36
 int InternalRatio = 6;
 
-int pi = 3.14159;
+double pi = 3.14159;
