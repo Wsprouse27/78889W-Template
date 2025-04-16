@@ -1,6 +1,6 @@
 #include "vex.h"
-#include "Config.h"
-#include "DeviceConfig.h"
+#include "Configs/Config.h"
+#include "Configs/DeviceConfig.h"
 
 using namespace vex;
 

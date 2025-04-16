@@ -1,6 +1,6 @@
 #include "vex.h"
-#include "DeviceConfig.h"
-#include "Config.h"
+#include "Configs/DeviceConfig.h"
+#include "Configs/Config.h"
 
 
 void DriverControl(void);

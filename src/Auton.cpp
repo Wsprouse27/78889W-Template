@@ -1,26 +1,7 @@
 #include "vex.h"
-#include "DrivetrainConfig.h"
-#include "DeviceConfig.h"
-
-void Skills() {
-
-}
-
-void Red1() {
-
-}
-
-void Red2() {
-
-}
-
-void Blue1() {
-
-}
-
-void Blue2() {
-
-}
+#include "Configs/DrivetrainConfig.h"
+#include "Configs/DeviceConfig.h"
+#include "Autons/Auton.h"
 
 void Autonomous(void) {
     if (AutoSelector.angle() < 50) {
